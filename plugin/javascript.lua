@@ -1,0 +1,7 @@
+vim.g.javascript_conceal_function       = "󰊕"
+vim.g.javascript_conceal_return         = "󱞶"
+vim.g.javascript_conceal_arrow_function = "󱡀"
+vim.g.javascript_conceal_this           = "⇠"
+vim.g.javascript_conceal_super          = "⇡"
+vim.g.javascript_conceal_null           = "∅"
+vim.g.javascript_conceal_undefined      = "␦"

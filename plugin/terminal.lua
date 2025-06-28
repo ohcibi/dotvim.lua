@@ -1,0 +1,7 @@
+vim.api.nvim_create_autocmd({ 'TermOpen' }, { pattern = '*', command = 'setlocal titlestring=%{get(b:,\'term_title\',\'\')}' })
+vim.api.nvim_create_autocmd({ 'TermOpen' }, { pattern = '*', command = 'setlocal nonumber' })
+vim.api.nvim_create_autocmd({ 'TermOpen' }, { pattern = '*', command = 'setlocal foldcolumn=0' })
+vim.api.nvim_create_autocmd({ 'TermOpen' }, { pattern = '*', command = 'setlocal signcolumn=auto' })
+vim.api.nvim_create_autocmd({ 'TermOpen' }, { pattern = '*', command = 'setlocal nospell' })
+vim.api.nvim_create_autocmd({ 'TermOpen' }, { pattern = '*', command = 'setlocal nowrap' })
+vim.api.nvim_create_autocmd({ 'TermOpen' }, { pattern = '*', command = 'setlocal syntax=OFF' })
